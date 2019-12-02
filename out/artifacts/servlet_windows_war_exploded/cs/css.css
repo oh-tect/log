@@ -1,0 +1,11 @@
+.sss{
+    color: white;
+}
+h1{
+    color: white;
+    font-family: 行者笔记简, monospace;
+    font-style: normal;
+}
+p{font-size: xx-large}
+.sideright{	width: 480px;	height: 450px;	float: right;}
+.sideright .index{	width: 400px;	height: 350px;	background-color:rgba(255,255,255,0.75);	margin: 50px 90px;}
