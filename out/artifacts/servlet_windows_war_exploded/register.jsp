@@ -15,15 +15,20 @@
     </style>
 </head>
 <body>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">注册</a>
+    </div>
     <div class="container">
         <ul class="nav navbar-nav">
-            <li class="active"><a href="index.jsp">首页</a></li>
-            <li><a href="">关于</a></li>
-            <li><a href="login.jsp">登录</a></li>
+            <li class="active"><a href="index.jsp"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-comment"></span> 关于</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
         </ul>
     </div>
-</nav>
+</nav><br><br><br>
 <div style="text-align: center;">
 <h1>注册</h1>
     <hr style="width:30% ">
