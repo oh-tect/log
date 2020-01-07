@@ -43,7 +43,7 @@ public class Register extends HttpServlet {
                 if(row>=0){
                     System.out.println("插入数据成功！");
                     out.println("<h1>注册成功！</h1>");
-                    out.print("<a herf=“login.jsp>返回登录页面</a>");
+                    out.print("<a herf=“login.jsp“>返回登录页面</a>");
                 }else{
                     out.println("<h1>用户已存在！</h1>");
                 }

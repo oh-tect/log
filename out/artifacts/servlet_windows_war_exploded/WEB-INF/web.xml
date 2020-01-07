@@ -19,4 +19,12 @@
         <servlet-name>Register</servlet-name>
         <url-pattern>/Register</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>gradeshowing</servlet-name>
+        <servlet-class>dao.gradeshowing</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>gradeshowing</servlet-name>
+        <url-pattern>/gradeshowing</url-pattern>
+    </servlet-mapping>
 </web-app>

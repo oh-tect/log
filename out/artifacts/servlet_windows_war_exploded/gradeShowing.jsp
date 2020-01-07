@@ -44,12 +44,20 @@
 
 <div class="row">
     <div class="col-xs-3" id="myScrollspy">
-        <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="200">
-            <li><a href="#">主页</a></li>
+        <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="200">
+            <li class="active"><a href="#">主页</a></li>
+            <li><a href="gradeshowing">成绩走势</a></li>
             <li><a href="#">成绩修改</a></li>
+            <li class="divider"></li>
             <li><a href="#">设置</a></li>
+            <li><a href="#">帮助</a></li>
         </ul>
     </div>
+    <h1>您要做什么？</h1>
+    <hr>
+    <form method="post"action="gradeshowing">
+        <input type="submit"value="成绩查询" name="aaaa"class="btn btn-info">
+    </form>
 </div>
 </body>
 </html>

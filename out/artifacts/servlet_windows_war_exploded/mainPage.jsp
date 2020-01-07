@@ -44,7 +44,7 @@
 </nav><br><br>
 
 <div class="container">
-    <div class="jumbotron">
+    <div class="jumbotron text-center">
         <h1>欢迎登陆页面！</h1>
         <p><a class="btn btn-primary btn-lg" role="button">
             学习更多</a>
